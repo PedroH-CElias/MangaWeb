@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MangaTecModelStoreContainer" CdmEntityContainer="MangaTecEntities">
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="MangaTecModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="idade" ColumnName="idade" />
+          <ScalarProperty Name="profissao" ColumnName="profissao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
